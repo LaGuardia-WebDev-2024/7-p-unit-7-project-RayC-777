@@ -11,8 +11,47 @@ draw = function(){
  
   background(255,255,255,0);
   
-fill (240,216,230);
+fill (240,216,230, 205);
+stroke (255, 102, 204);
 ellipse (93, 199, 53, 45);
+
+ellipse (490, 175, 100, 80);
+
+textSize(40);
+text("╮", 96, 234);
+
+textSize (40);
+text ("╰", 95, 270 )
+
+textSize (40);
+text ("╭", 33, 224);
+
+textSize (40)
+text ("╯", 34, 258)
+
+textSize (47);
+text ("⌇", 79, 253);
+
+textSize (48);
+text ("╰", 69, 254); 
+text ("╯", 54, 258);
+
+textSize (85);
+text ("╰", 485, 267)
+
+
+fill (170, 51, 106)
+ellipse (81, 191, 10, 10);
+ellipse (107, 202, 7, 10);
+ellipse (89, 209, 15, 15);
+ellipse (103, 213, 8, 5);
+ellipse (93, 185, 8, 5);
+ellipse (463, 167, 20, 25);
+ellipse (496, 174, 15, 15);
+ellipse (476, 193, 10, 10);
+
+
+
 
 
 
