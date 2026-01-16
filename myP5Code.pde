@@ -4,6 +4,13 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
+var J = 93
+
+var S = 490
+
+var P = 297
+
+var K = 49
 
 
 //🟢Draw Procedure - Runs on Repeat
@@ -13,9 +20,13 @@ draw = function(){
   
 fill (240,216,230, 205);
 stroke (255, 102, 204);
-ellipse (93, 199, 53, 45);
 
-ellipse (490, 175, 100, 80);
+
+
+ellipse (J, 199, 53, 45);
+
+
+ellipse (S, 175, 100, 80);
 
 textSize(40);
 text("╮", 96, 234);
@@ -36,8 +47,14 @@ textSize (48);
 text ("╰", 69, 254); 
 text ("╯", 54, 258);
 
-textSize (85);
-text ("╰", 485, 267)
+textSize (70);
+text ("╰", 485, 267);
+text ("╯", 441, 276);
+
+textSize (50);
+text ("╰", 485, 259);
+text ("╯", 465, 260);
+text ("⌇", 473, 250);
 
 
 fill (170, 51, 106)
@@ -49,6 +66,41 @@ ellipse (93, 185, 8, 5);
 ellipse (463, 167, 20, 25);
 ellipse (496, 174, 15, 15);
 ellipse (476, 193, 10, 10);
+
+fill (0, 0, 0, 55); //shadow
+stroke (0, 0, 0, 40)
+ellipse (297, 211, 75, 20);
+
+
+
+fill (240,216,230,205); // moving jelly
+stroke (255, 102, 204);
+
+
+
+ellipse (P, K, 45, 36);
+
+textSize (50);
+text ("╰", P - 7, K + 57); //right
+text ("╯", P - 40, K + 57); //left
+
+textSize (45);
+text ("╰", P - 20, K + 57); //middle
+
+fill (170, 51, 106);
+ellipse (P - 10, K - 3, 10, 10);
+ellipse (P + 10, K - 3, 5, 5);
+ellipse (P + 5, K + 7, 12, 7);
+
+K = K - .75;
+
+
+
+
+
+
+
+
 
 
 

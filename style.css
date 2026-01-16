@@ -20,4 +20,15 @@ h1{
   font-size: 50px;
   font-style: normal;
 }
+ .foreground-image {
+  /* 2. Position the foreground image */
+  position: absolute; /* CRITICAL: Allows positioning relative to the container */
+  top: 50%; /* Position the top edge 50% down from the container's top */
+  left: 50%; /* Position the left edge 50% across from the container's left */
+  /* Optional: Adjust position to center the image perfectly */
+  transform: translate(-50%, -50%);
+  /* Optional: Control the size of the foreground image */
+  width: 100px;
+  height: auto;
+}
 
