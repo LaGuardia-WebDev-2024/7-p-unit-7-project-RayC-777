@@ -10,7 +10,7 @@ var S = 490
 
 var P = 297
 
-var K = 49
+var K = 149
 
 
 //🟢Draw Procedure - Runs on Repeat
@@ -92,9 +92,12 @@ ellipse (P - 10, K - 3, 10, 10);
 ellipse (P + 10, K - 3, 5, 5);
 ellipse (P + 5, K + 7, 12, 7);
 
-K = K - .75;
+K = K - .25;
 
 
+if (K < -48) {
+  K = 150
+}
 
 
 
